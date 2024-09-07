@@ -1,0 +1,188 @@
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {display: block;} */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#eae0d5 ;
+}
+.ribbon{
+    background-color: #180232;
+    height: 30px;
+}
+.Master{
+    position: sticky;
+    top: 0px;
+    background-color:#eae0d5
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    /* border-bottom: #180232; */
+}
+.search{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    height: 34px;
+}
+.bag{
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+.user{
+    position: absolute;
+    top: 35px;
+    right: 60px;
+}
+button{
+    border: none;
+    background-color: #eae0d5;
+}
+#title{
+    font-family:"Advent Pro", sans-serif;
+    font-size: 45px;
+    color: #180232;
+    
+}
+.fa-solid{
+    font-size: 20px;
+}
+
+.fa-user{
+    font-size: 20px;
+}
+ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    /* margin-top: 15px; */
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #180232;
+    font-weight: 300;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    /* position: sticky;
+    top: 0px; */
+    height: 80px;
+    /* background-color:#eae0d5 */
+}
+.About{
+    background-color: #5e503f;
+    width: 100vw;
+    height: auto;
+    background-position: center;
+}
+img{
+    width: 100vw;
+    height: auto;
+
+}
+.Body-casing{
+    display: grid ;
+    justify-content: center;
+    font-family:"Advent Pro", sans-serif;
+    text-align: center;
+    /* background-color: #c6ac8f; */
+}
+.Festival{
+    text-align: center;
+    font-family:"Advent Pro", sans-serif;
+}
+.lovedOne{
+    text-align: center;
+    font-family:"Advent Pro", sans-serif;
+}
+.catlogues-cont{
+    display: grid;
+    width: 80vw;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: auto;
+    
+}
+.catlogues1{
+    border: solid black;
+    background-color: #c9b1bd;
+}
+.catlogues2{
+    border: solid black;
+    background-color: #bed8d4;
+}
+.catlogues3{
+    border: solid black;
+    background-color: #c6ac8f;
+}
+.Disclaimer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    background-color: #d6d6d6;
+    font-size: 20px;
+    font-family:"Advent Pro", sans-serif;
+}
+.Disclaimer > div {
+    margin-top: 30px;
+}
+.sticky{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #180232;
+    padding-top:50px;
+    text-align: center;
+    font-family:"Advent Pro", sans-serif;
+    font-weight: 50;
+    height: 35vh;
+    color: white;
+    
+}
+.policy > a{
+    display: block;
+    color: white;
+}
+.information > a {
+    display: block;
+    color: white;
+}
+.fa-brands{
+    font-size: 25px;
+    margin: 2px;
+}
