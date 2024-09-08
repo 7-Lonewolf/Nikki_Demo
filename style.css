@@ -89,10 +89,10 @@ a:hover{
     text-decoration: underline;
 }
 .container{
-    /* position: sticky;
-    top: 0px; */
-    height: 80px;
-    /* background-color:#eae0d5 */
+    height: 12vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 .About{
     background-color: #5e503f;
@@ -153,20 +153,20 @@ img{
     font-family:"Advent Pro", sans-serif;
 }
 .Disclaimer > div {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .sticky{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 50px;
+    bottom: 30px;
+    right: 30px;
+    
 }
 
 footer{
     display: flex;
     justify-content: space-evenly;
     background-color: #180232;
-    padding-top:50px;
+    padding-top:30px;
     text-align: center;
     font-family:"Advent Pro", sans-serif;
     font-weight: 50;
@@ -183,6 +183,6 @@ footer{
     color: white;
 }
 .fa-brands{
-    font-size: 25px;
+    font-size: 30px;
     margin: 2px;
 }
