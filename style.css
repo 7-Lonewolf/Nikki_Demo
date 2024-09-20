@@ -1,22 +1,7 @@
-/* .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-content {display: block;} */
-
 *{
     margin: 0;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 body{
     background-color:#eae0d5 ;
@@ -26,6 +11,7 @@ body{
     height: 30px;
 }
 .Master{
+    height: 23vh;
     position: sticky;
     top: 0px;
     background-color:#eae0d5
@@ -33,23 +19,29 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     /* border-bottom: #180232; */
 }
 .search{
     position: absolute;
-    top: 35px;
+    top: 60px;
     left: 10px;
     height: 34px;
 }
+.search-input{
+    display: none;
+}
+.search:hover .search-input {
+    display: block;
+}
 .bag{
     position: absolute;
-    top: 35px;
+    top: 60px;
     right: 15px;
 }
 .user{
     position: absolute;
-    top: 35px;
+    top: 60px;
     right: 60px;
 }
 button{
@@ -57,10 +49,18 @@ button{
     background-color: #eae0d5;
 }
 #title{
-    font-family:"Advent Pro", sans-serif;
+    font-family: "Sofadi One", system-ui;
     font-size: 45px;
     color: #180232;
     
+}
+#sub-title{
+    position: absolute;
+    top: 60px;
+    font-family: "Sofadi One", system-ui;
+    color: #180232;
+    /* text-decoration: underline; */
+
 }
 .fa-solid{
     font-size: 20px;
@@ -89,11 +89,44 @@ a:hover{
     text-decoration: underline;
 }
 .container{
+    display: flex;
+    justify-content: center;
     height: 12vh;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
 }
+.dropbtn{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.dropdown-content {
+    display: none;  
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    background-color: #eae0d5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a :hover{
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* text-decoration: underline; */
+}
+
+
 .About{
     background-color: #5e503f;
     width: 100vw;
