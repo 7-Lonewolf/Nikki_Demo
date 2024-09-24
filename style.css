@@ -60,6 +60,7 @@ button{
     position: absolute;
     top: 60px;
     font-family: "Noto Serif", serif;
+    font-size: 15px;
     color: #180232;
     /* text-decoration: underline; */
 
