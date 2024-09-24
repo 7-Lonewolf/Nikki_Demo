@@ -19,6 +19,7 @@ body{
 }
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     /* margin-top: 5px; */
     /* border-bottom: #180232; */
